@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 200px) {
   body {
     display: block;
     width: 100%;
@@ -473,7 +473,6 @@
   #primeirodia {
     display: block;
     width: 100%;
-    height: 350px;
     position: relative;
     z-index: 2;
     font-family: Lato;
@@ -637,6 +636,13 @@
     margin: 0;
   }
 
+  .flexListContent {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #ffffff;
+  }
+
 }
 
 #sobre {
@@ -646,6 +652,14 @@
   background-color: #fafafa;
 }
 @media only screen and (min-width: 361px) {
+
+  .flexListContent {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #ffffff;
+  }
+
   ul {
     padding-left: 0px;
     list-style: none;
@@ -660,7 +674,6 @@
   #primeirodia {
     display: block;
     width: 100%;
-    height: 350px;
     position: relative;
     z-index: 2;
     font-family: Lato;
@@ -680,6 +693,13 @@
 }
 
 @media only screen and (max-width: 360px) {
+
+  .flexListContent {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #ffffff;
+  }
 
   ul {
     padding-left: 0px;
@@ -713,7 +733,6 @@
   #primeirodia {
     display: block;
     width: 100%;
-    height: 350px;
     position: relative;
     z-index: 2;
     font-family: Lato;
