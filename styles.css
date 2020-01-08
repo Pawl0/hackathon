@@ -11,7 +11,7 @@
     width:100%;
     height: 665px;
     opacity: 1;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("img/amazon.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("img/amazon.jpg");
     background-position: 0px 0px; 
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@
     line-height: 1.5;
     letter-spacing: 2.8px;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     display: block;
     margin-top: 23.3px;
     margin-left: 25.4px;
@@ -126,7 +126,7 @@
 
   .countdown {
     display: block;
-    width: 449.9px;
+    width: 100%;
     font-family: Lato;
     font-size: 40px;
     font-weight: bold;
@@ -229,6 +229,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    background-color: #fafafa;
   }
 
   .sobreText{  
@@ -271,9 +272,11 @@
     color: #000000;
     position: relative;
     z-index: 2;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 54px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     margin-bottom: 0;
   }
 
@@ -284,9 +287,10 @@
     margin-bottom: 0;
     position: relative;
     z-index: 2;
-    margin-top: 0px;
-    margin-left: 34px;
-    margin-right: 34px;
+    padding-top: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+    background-color: #fafafa;
   }
 
   .ballContent {
@@ -305,7 +309,7 @@
   }
 
   .ballText {
-    text-align: center;
+    display: block;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -326,7 +330,7 @@
     width: 100%;
     opacity: 0.65;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -369,7 +373,7 @@
     display: block;
     width: 100%;
     height: 278.4px;
-    background-image: url('img/amazon.png');
+    background-image: url('img/amazon.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -420,11 +424,12 @@
     z-index: 2;
     margin: 0px;
     margin-top: 28px;
+    margin-bottom: 88px;
   }
 
   #programacao {
     display: block;
-    margin-top: 88px;
+    margin-top: 0px;
   }
 
   .Programao {
@@ -441,6 +446,7 @@
     color: #000000;
     position: relative;
     z-index: 2;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     background-color: #fafafa;
@@ -453,12 +459,17 @@
     list-style: none;
     line-height: 2.2rem;
     font-family: Poppins;
-    font-size: 9px;
+    font-size: 11px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
   }
 
+  li {
+    display: block;
+    word-break: break-word;
+    margin-right: 65px;
+  }
   #primeirodia {
     display: block;
     width: 100%;
@@ -480,11 +491,9 @@
   #segundodia {
     display: block;
     width: 100%;
-    height: 350px;
+    /* height: 350px; */
     position: relative;
     z-index: 2;
-    margin-left: auto;
-    margin-right: auto;
     font-family: Lato;
     font-size: 14px;
     font-weight: 300;
@@ -500,7 +509,8 @@
   #realizacao {
     background-color: #fafafa;
     position: relative;
-    margin-top: 32px;
+    padding-top: 8px;
+    margin-top: 64px;
     text-align: left;
     color: #000000;
   }
@@ -598,6 +608,7 @@
     flex-basis: 20%;
     position: relative;
     z-index: 2;
+    margin-top: 12px;
   }
 
   #footer{
@@ -632,6 +643,177 @@
   display: block;
   word-break: break-word;
   overflow: hidden;
+  background-color: #fafafa;
+}
+@media only screen and (min-width: 375px) {
+  ul {
+    padding-left: 0px;
+    list-style: none;
+    line-height: 2.2rem;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+  }
+
+  #primeirodia {
+    display: block;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    z-index: 2;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 47px;
+    margin-bottom: 32px;
+    color: #000000;
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+
+  ul {
+    padding-left: 0px;
+    list-style: none;
+    line-height: 2.2rem;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+  }
+  
+  .countdown {
+    display: block;
+    width: 80%;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17.7px;
+    margin-bottom: 0px;
+  }
+
+  #primeirodia {
+    display: block;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    z-index: 2;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 47px;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+} 
+
+@media only screen and (min-width: 768px) {
+
+  .ballText {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 26px;
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 0.45px;
+    text-align: center;
+    color: #000000;
+    margin-top: 26px;
+  }
+
+  .ballSub {
+    width: 199px;
+    opacity: 0.65;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.16px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+  }
+
+  
+  .flexImgContent {
+    background-color: #ffffff;
+    padding-top: 0;
+    display: flex;
+  }
+
+  .flexListContent {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #ffffff;
+  }
+
+  #primeirodia {
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-left: 105px;
+  }
+
+  #segundodia {
+    width: 50%;
+    height: 400px;
+    float: right;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -703,7 +885,7 @@
   letter-spacing: normal;
   text-align: left;
   color: #d9f0ff;
-  flex-basis: 10%;
+  flex-basis: 20%;
   }
 
 .nav {
@@ -720,11 +902,11 @@
   text-align: center; 
   margin-left: -65px;
   margin-right: 0;
-  flex-basis: 80%;
+  flex-basis: 60%;
 }
 
   .placeholder {
-    flex-basis: 10%;
+    flex-basis: 20%;
   }
     
   .btnInscMobile {
@@ -855,8 +1037,7 @@
   }
 
   .Sobre-o-Evento {
-    width: 570px;
-    height: 50px;
+    width: 100%;
     font-family: Lato;
     font-size: 35px;
     font-weight: 300;
@@ -866,11 +1047,13 @@
     letter-spacing: normal;
     text-align: center;
     color: #000000;
-    margin-top: 156px;
     position: relative;
     z-index: 2;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
   .sobreText{  
@@ -900,8 +1083,7 @@
   }
 
   .Palestrantes {
-    width: 618px;
-    height: 54px;
+    width: 100%;
     font-family: Lato;
     font-size: 35px;
     font-weight: 300;
@@ -917,6 +1099,8 @@
     margin-right: auto;
     margin-top: 67px;
     margin-bottom: 0;
+    padding-top: 60px;    
+    padding-bottom: 60px;
   }
 
   .contentFlex {
@@ -928,11 +1112,12 @@
       justify-content: space-between;
       position: relative;
       z-index: 2;
-      margin-top: 91px;
-      margin-left: 87px;
-      margin-right: 106px;
-      padding-bottom: 120px;
+      margin-top: 0px;
+      padding-left: 87px;
+      padding-right: 106px;
+      padding-bottom: 170px;
       margin-bottom: 0;
+      background-color: #fafafa;
   }
 
   .ballContent {
@@ -941,7 +1126,7 @@
     object-fit: contain;
   }
   .ballFigure {
-      flex-basis: 15%;
+      flex-basis: 20%;
       position: relative;
       z-index: 2;
       width: 129px;
@@ -982,6 +1167,12 @@
     margin-bottom: 0;
   }
 
+  .flexImgContent {
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   #localEvento {
     display: block;
     margin-top: 0;
@@ -1004,6 +1195,7 @@
     margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #fafafa;
   }
 
   .flexImgContent {
@@ -1014,7 +1206,7 @@
   .ocean {
     width: 100%;
     height: 601.4px;
-    background-image: url('img/amazon.png');
+    background-image: url('img/amazon.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1032,6 +1224,7 @@
     z-index: 2;
     display: block;
     margin-left: 86px;
+    padding-right: 0;
   }
 
   .Samsung-Ocean {
@@ -1095,9 +1288,12 @@
     margin-bottom: 32px;
   }
 
-  .flexImgContent {
+
+  .flexListContent {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 200px;
     background-color: #ffffff;
-    padding-top: 20px;
   }
 
   #primeirodia {
@@ -1152,7 +1348,6 @@
   #realizacao {
     background-color: #fafafa;
     position: relative;
-    margin-top: 67px;
     text-align: left;
     color: #000000;
     font-family: Lato;
@@ -1163,6 +1358,7 @@
     letter-spacing: normal;
     display: flex;
     padding-top: 67px;
+    margin-top: 0;
   }
 
   
@@ -1217,7 +1413,7 @@
   }
 
   .tecnologia-gray {
-    width: 251.6px;
+    width: 180px;
     height: 80px;
     object-fit: contain;
     position: relative;
@@ -1226,7 +1422,7 @@
   }
 
   .cits-gray {
-    width: 200.2px;
+    width: 120px;
     height: 80px;
     object-fit: contain;
     position: relative;
@@ -1235,12 +1431,14 @@
   }
 
   .samsung-ocean-gray {
-    width: 172px;
+    width: 130px;
     height: 56px;
+    margin-top: 12px;
     object-fit: contain;
     position: relative;
     z-index: 2;
     flex-basis: 25%;
+    margin-top: 16px;
   }
 
   #footer{
