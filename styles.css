@@ -600,7 +600,7 @@
     z-index: 2;
   }
 
-  .samsung-ocean-gray {
+  .manaus-tech-hub-gray {
     width: 120px;
     height: 56px;
     object-fit: contain;
@@ -1226,7 +1226,7 @@
   .ocean {
     width: 100%;
     height: 601.4px;
-    background-image: url('img/amazon.jpg');
+    background-image: url('img/manaus-tech-hub.jpeg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1247,7 +1247,7 @@
     padding-right: 0;
   }
 
-  .Samsung-Ocean {
+  .Manaus-Tech-Hub {
     width: 50%px;
     font-family: Lato;
     font-size: 50px;
@@ -1450,7 +1450,7 @@
     flex-basis: 25%;
   }
 
-  .samsung-ocean-gray {
+  .manaus-tech-hub-gray {
     width: 130px;
     height: 56px;
     margin-top: 12px;
