@@ -849,7 +849,7 @@
     width:100%;
     height: 900px;
     opacity: 1;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("img/amazon.png");
+    background: url("img/amazon.png");
     background-position: 0px -300px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -865,7 +865,7 @@
     opacity: 1;
     z-index: 2;
     background-position: 0px 40px;
-    background-image: url("img/amdesert.png");  
+    background-image: url("img/jersualem.png");  
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
